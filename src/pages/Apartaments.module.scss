@@ -1,0 +1,13 @@
+.apartaments_wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 12px;
+    margin: 40px 120px;
+    justify-content: center;
+    align-content: center;
+}
+
+.filters {
+    margin-top: 50px;
+}

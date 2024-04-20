@@ -1,0 +1,60 @@
+.cards_wrapper {
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+
+
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    // display: grid;
+    // grid-template-columns: repeat(2, 1fr);
+    // grid-template-rows: repeat(2, 1fr);
+    // grid-column-gap: 10px;
+    // grid-row-gap: 10px;
+}
+
+.filter_bar {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+    index {
+        margin-right: 30px;
+    }
+
+    select {
+        padding-right: 10px;
+        background-color: #d9ecff;
+        margin-right: 30px;
+        font-size: 15px;
+        width: 200px;
+        height: 30px;
+        border-radius: 6px;
+    }
+
+    input {
+        padding-right: 10px;
+        background-color: #d9ecff;
+        margin-right: 30px;
+        font-size: 15px;
+        width: 200px;
+        height: 23px;
+        border-radius: 6px;
+    }
+
+    option {
+        color: #000;
+    }
+
+    select::first-child:active {
+        background-color: red;
+    }
+}

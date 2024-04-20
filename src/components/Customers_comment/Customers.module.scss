@@ -1,0 +1,166 @@
+.wrapper {
+    letter-spacing: 0.36px;
+    padding: 50px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DCDCDC;
+
+
+    .customer_form {
+        display: flex;
+        border: 1px solid #DCDCDC;
+
+        .customers_wrapper {
+            padding: 10px 20px;
+            width: 400px;
+
+            .customer_profil {
+                border: 1px solid #DCDCDC;
+                display: flex;
+                padding: 15px;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+
+                h3 {
+                    color: #1C2752;
+                    font-weight: 400;
+                    font-size: 13px;
+                    margin: 0px 10px;
+                }
+            }
+
+            .buttons_wrap {
+                display: flex;
+                margin-bottom: 20px;
+
+                img {
+                    width: 35px;
+                    height: 35px;
+                    margin-right: 5px;
+                    cursor: pointer;
+                }
+            }
+
+            h2 {
+                font-weight: 500;
+                color: #1C2752;
+                font-size: 25px;
+
+            }
+
+            p {
+                color: #7E7E7E;
+                font-size: 13px;
+
+            }
+        }
+
+        .call_info {
+            padding: 10px;
+            background-color: #FFB342;
+
+            h3 {
+                color: #1C2752;
+                font-weight: 500;
+                font-size: 15px;
+                margin-bottom: 5px;
+            }
+
+            p {
+                color: #1C2752;
+            }
+
+            .img_wrap {
+                display: flex;
+
+                img {
+                    border-radius: 100%;
+                    width: 40px;
+                    height: 40px;
+                }
+
+                p {
+                    color: #FFFFFF;
+                    font-size: 18px;
+                    margin: 0px 10px;
+                }
+            }
+        }
+
+        .form_wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            margin-left: 50px;
+            padding: 10px 20px;
+
+
+            h2 {
+                font-weight: 500;
+                color: #1C2752;
+                font-size: 25px;
+            }
+
+            .input_wrap {
+                background-color: #F4F4F4;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 350px;
+
+                button {
+                    background-color: #FFB342;
+                    width: 250px;
+                    height: 40px;
+                    border: 0px;
+                    cursor: pointer;
+                }
+
+                input {
+                    color: #1C2752;
+                    margin-bottom: 20px;
+                    height: 30px;
+                    width: 250px;
+                    font-size: 12px;
+                    padding-left: 10px;
+                    resize: vertical;
+                }
+
+            }
+        }
+    }
+
+    .companies_trust {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+
+        h1 {
+            font-weight: 500;
+            color: #1C2752;
+            font-size: 25px;
+            margin-bottom: 30px;
+
+        }
+
+        .img_wrap {
+            display: flex;
+            flex-direction: row;
+
+            img {
+                margin-right: 50px;
+                width: 150px;
+                height: 50px;
+            }
+        }
+    }
+
+}

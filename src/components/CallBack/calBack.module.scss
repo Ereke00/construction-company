@@ -1,0 +1,46 @@
+.callBack_wrapper {
+    display: flex;
+    padding: 50px 120px;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        padding-right: 90px;
+        width: 590px;
+        font-family: "Mulish";
+        margin-bottom: auto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 78px;
+        letter-spacing: 1.2px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        input {
+            margin-bottom: 20px;
+            height: 30px;
+            width: 250px;
+            font-size: 12px;
+            padding-left: 10px;
+            resize: vertical;
+        }
+
+        button {
+            background-color: #FFB342;
+            width: 250px;
+            height: 40px;
+            border: 0px;
+            cursor: pointer;
+        }
+    }
+}

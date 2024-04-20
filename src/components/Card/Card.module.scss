@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    flex-direction: column; // Содержимое будет расположено вертикально
+    border: 1px solid #ccc;
+    margin: 40px 20px;
+    padding: 5px;
+    transition: all 0.3s; // Добавляем плавную анимацию при наведении
+    cursor: pointer;
+    height: auto;
+    width: auto;
+    border-radius: 25px;
+    &:hover {
+        transform: scale(1.02); // Увеличиваем размер при наведении
+        background-color: #f1dbbd; // Меняем фоновый цвет при наведении
+    }
+    .image_container {
+        display: flex;
+        justify-content: center;
+    }
+    img {
+        max-width: 500px;
+        height: 250px;
+        border-radius: 25px;
+    }
+    h1 {
+        font-size: 30px;
+        color: #1C2752;
+    }
+    p {
+        font-size: 16px;
+        margin: 8px 0;
+    }
+    span {
+        font-weight: 700;
+    }
+    .text_wrapper {
+        margin: 15px 5px;
+        width: 440px;
+    }
+}

@@ -1,0 +1,56 @@
+.apart_wrapper {
+    margin: 20px 40px;
+    padding: 20px;
+    border-radius: 24px;
+    box-sizing: border-box;
+    background-color: white;
+    transition: all 0.3s;
+    width: 290;
+    height: auto;
+    background-color: aliceblue;
+
+    &:hover {
+        transform: scale(1.02);
+        background-color: #dbe5f2;
+    }
+
+    img {
+        height: 300px;
+        width: 270px;
+    }
+
+    h4 {
+        margin: 0;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: -0.03em;
+    }
+
+    h2 {
+        margin: 10px 0px;
+        font-weight: 500;
+        font-size: 30px;
+        letter-spacing: -0.05em;
+    }
+
+    h3 {
+        margin: 5px 0px;
+        font-weight: 500;
+        font-size: 30px;
+        letter-spacing: -0.05em;
+        color: #007aff;
+    }
+
+    h5 {
+        background-color: #007aff;
+        margin-left: 0px;
+        color: white;
+        margin: 10px;
+        width: 90px;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 6px;
+        height: 30px;
+        font-weight: 500;
+    }
+}

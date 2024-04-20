@@ -1,0 +1,127 @@
+.root {
+    font-family: 'Inter', sans-serif;
+    margin-left: 120px;
+    margin-right: 120px;
+    font: inherit;
+
+    .social_medias {
+        background-color: #F2F2F2;
+        display: flex;
+        height: 40px;
+        justify-content: center;
+
+        p {
+            font-size: 13px;
+        }
+
+    }
+
+    .social_media_icons {
+        display: flex;
+        margin-left: 700px;
+        justify-content: center;
+        margin-top: 5px;
+
+        svg {
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+    }
+
+    .brand_contact {
+        display: flex;
+        position: relative;
+        top: 10px;
+
+        .company_icon {
+            width: 250px;
+            height: 50px;
+        }
+
+        .header_contact {
+            p {
+                font-size: 14px;
+            }
+
+            display: flex;
+            justify-content: center;
+            margin-left: 340px;
+        }
+
+        .mail {
+            display: flex;
+            margin-right: 50px;
+
+            a {
+                text-decoration: none;
+                color: black;
+                opacity: 0.8;
+                font-size: 13px;
+            }
+
+            img {
+                margin-right: 10px;
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+        .call {
+            display: flex;
+
+            img {
+                margin-right: 10px;
+                width: 50px;
+                height: 50px;
+            }
+
+            span {
+                font-size: 13px;
+                opacity: 0.9;
+            }
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .nav_bar_button {
+        top: 20px;
+        display: flex;
+        position: relative;
+        background-color: #d9ecff;
+        height: 70px;
+        align-content: center;
+        flex-wrap: wrap;
+        position: relative;
+
+        .nav_bar {
+            margin-left: 40px;
+            top: 30px;
+
+            a {
+                margin-right: 35px;
+                text-decoration: none;
+                color: black !important;
+                font-size: 14px;
+                top: 14px;
+                position: relative;
+                opacity: 0.8;
+
+
+            }
+        }
+
+        button {
+            margin-left: 18px;
+            width: 200px;
+            height: 55px;
+            font-size: 13px;
+            background-color: #004b94;
+            color: #F4F4F4 !important;
+            cursor: pointer;
+            border: 0px solid #004b94;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.wrapper {
+    background-color: #1C2752;
+    color: #FFFFFF;
+    letter-spacing: 0.36px;
+    padding: 40px 120px;
+
+    .main_info_wrap {
+        display: flex;
+
+        .iconInfo {
+            display: flex;
+        }
+    }
+}
