@@ -5,8 +5,8 @@ import listComplexes from '../../listComplex.json'
 const Services = () => {
     return (
         <div className={styles.services_wrap}>
-            <h2>Наши услуги</h2>
-            <p>We offers a comprehensive range of electrical services for domestic and commercial properties at a reasonable price.</p>
+            <h2>Біздің қызметтер</h2>
+            <p>Біз қолайлы бағамен тұрмыстық және коммерциялық нысандарға арналған электр қызметтерінің кешенді спектрін ұсынамыз.</p>
             <div className={styles.card_wrap} >
                 {
                     listComplexes.map((listComplex) => (

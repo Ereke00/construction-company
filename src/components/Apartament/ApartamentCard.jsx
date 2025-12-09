@@ -13,7 +13,7 @@ const ApartamentCard = (props) => {
             <img src={planImg} alt="planImg" />
             <p>Пәтер нөмері {numApart}. Пәтер {entrance} кіреберісте, {floor} қабатта орналасқан</p>
             <p>Мекенжайы: {adress}</p>
-            <p>тапсырылу уақыты: {year}</p>
+            <p>Тапсырылу уақыты: {year}</p>
         </div>
     )
 }

@@ -18,14 +18,12 @@ const MeetingForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            // Отправляем данные на сервер
             await axios.post('/meeting', formData);
             console.log("udalos otpt")
 
-            // Здесь можно добавить обработку успешной отправки
             e.preventDefault();
 
-            e.target.reset(); // очищаем форму
+            e.target.reset(); 
 
         } catch (error) {
             console.log("Ne udalos otpt", error)

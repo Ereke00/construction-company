@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <div className={styles.root}>
             <div className={styles.social_medias}>
-                <p>График работы: с 06:00 до 20:00</p>
+                <p>Жұмыс уақыты: таңғы 6:00-ден 20:00-ге дейін</p>
                 <div className={styles.social_media_icons}>
                     <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_8_7)">
@@ -62,14 +62,14 @@ const Header = () => {
                         <img src={mailIcon} alt="" />
                         <p>Біздің почта <br />
                             <a href="sekerbek8@gmail.com">
-                                sekerbek8@gmail.com
+                                google@gmail.com
                             </a>
                         </p>
                     </div>
                     <div className={styles.call}>
                         <img src={callIcon} alt="" />
                         <p>Бізге хабарласыңыз <br />
-                            <span>8(776) 136 7896
+                            <span>8(777) 777 7777
                             </span>
                         </p>
                     </div>

@@ -40,7 +40,7 @@ const Customers = () => {
                         </p>
                         <div className={styles.img_wrap}>
                             <img src={tfIcon} alt="call" />
-                            <p>8 776 136 7896</p>
+                            <p>8 777 777 7777</p>
                         </div>
                     </div>
                 </div>
